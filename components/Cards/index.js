@@ -79,7 +79,7 @@ function articleCreator(x){
     imgContainer.classList.add('img-container');
 
     headline.textContent = x.headline;
-    author.textContent = x.authorName;
+    authorName.textContent = x.authorName;
     authorImg.src = x.authorPhoto;
 
 
